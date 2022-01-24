@@ -1,0 +1,741 @@
+<%= video_tag "GalaxyBG.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, class: "myVideo" %>
+
+<div class="site-wrapper">
+
+	<!-- mobile header -->
+	<div class="mobile-header py-2 px-3 mt-4">
+		<button class="menu-icon mr-2">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+		<%= link_to root_path do %>
+   			<%= image_tag "xmartstudio.jpg", width: 40, class: "pimg" %>
+		<% end %>
+		<a href="index.html" class="site-title dot ml-2">Ali Raza</a>
+	</div>
+
+	<!-- header -->
+	<header class="left float-left shadow-dark" id="header">
+		<button type="button" class="close" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="header-inner d-flex align-items-start flex-column">
+			<%= link_to root_path do %>
+   				<%= image_tag "xmartstudio.jpg", width: 105, class: "pimg" %>
+			<% end %>
+			<a href="index.html" class="site-title dot mt-3">Ali Raza</a>
+			<span class="site-slogan">Web Developer</span>
+			
+			<!-- navigation menu -->
+			<nav>
+				<ul class="vertical-menu scrollspy">
+					<li><i class="margin fas fa-home"></i><%= link_to "Home", root_path, class: "active" %></li>
+					<li><a href="#about"><i class="margin fas fa-user"></i>About</a></li>
+					<li><a href="#services"><i class="margin fas fa-code-branch"></i>Services</a></li>
+					<li><a href="#resume"><i class="margin fas fa-file-alt"></i>Resume</a></li>
+					<li><a href="#works"><i class="margin fas fa-th-large"></i>Works</a></li>
+					<li><a href="#blog"><i class="margin fas fa-pen-square"></i>Blog</a></li>
+					<li><a href="#contact"><i class="margin fas fa-phone"></i>Contact</a></li>
+				</ul>
+			</nav>
+			
+			<!-- footer -->
+			<div class="footer mt-auto">
+
+				<!-- social icons -->
+				<ul class="social-icons list-inline">
+					<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+				</ul>
+
+				<!-- copyright -->
+				<span class="copyright">© 2021 Developed By Ali Raza</span>
+			</div>
+		</div>
+	</header>
+
+	<!-- main content area -->
+	<main class="content float-right">
+
+		<!-- section hero -->
+		<section class="hero background parallax shadow-dark d-flex align-items-center" id="home" data-image-src="https://via.placeholder.com/900x600">
+			<div class="cta mx-auto mt-2">
+				<h1 class="mt-0 mb-4">I’m Ali Raza<span class="dot"></span></h1>
+				<p class="mb-4">Hey, I am Web Developer and Designer and I'm done my Software Engineering in Comsats University Islamabad, and I have 4 year Experience in Web Development and Designing.</p>
+				<a href="#" class="btn btn-default btn-lg mr-3 mb"><i class="margin fas fa-file-alt"></i>View Portfolio</a>
+				<div class="spacer d-md-none d-lg-none d-sm-none" data-height="10"></div>
+				<a href="#" class="btn btn-border-light btn-lg mb"><i class="margin fas fa-envelope"></i>Hire me</a>
+			</div>
+			<div class="overlay"></div>
+		</section>
+
+		<!-- section about -->
+		<section id="about" class="shadow-blue white-bg padding">
+			<h3 class="section-title">About Me</h3>
+			<div class="spacer" data-height="80"></div>
+
+			<div class="row">
+				<div class="col-md-3">
+					<%= link_to root_path do %>
+   				<%= image_tag "xmartstudio.jpg", width: 150, class: "prop" %>
+			<% end %>
+				</div>
+				<div class="col-md-9">
+					<h2 class="mt-4 mt-md-0 mb-4">Hello,</h2>
+					<p class="mb-0">I am Ali Raza, web developer from Chichawatni, Pakistan. I have rich experience in web site design and building and customization, also I am good at Ruby on Rails, Python and C Language.</p>
+					<div class="row my-4">
+						<div class="col-md-6">
+							<p class="mb-2">Name: <span class="text-dark">Ali Raza</span></p>
+							<p class="mb-0">Birthday: <span class="text-dark">01 january, 1998</span></p>
+						</div>
+						<div class="col-md-6 mt-2 mt-md-0 mt-sm-2">
+							<p class="mb-2">Location: <span class="text-dark">Chichawatni, Pakistan</span></p>
+							<p class="mb-0">Email: <span class="text-dark">aliraxa.yasin.714@gmail.com</span></p>
+						</div>
+					</div>
+					<a href="#" class="btn btn-default mr-3 mb"><i class="margin fas fa-cloud"></i>Download CV</a>
+					<a href="#" class="btn btn-alt mt-2 mt-md-0 mt-xs-2 ml"><i class="margin fas fa-envelope"></i>Hire me</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- section skills -->
+		<section id="skills" class="shadow-blue white-bg padding">
+			<h3 class="section-title">My skills</h3>
+			<div class="spacer" data-height="80"></div>
+			
+			<p class="mb-0 skills1">
+					★ 100% Job Success</br>
+					★ 5 Stars Rating<br>
+					★ 1200+ hours of work history<br>
+					★ 4+ years work in the IT industry as a developer<br><br>
+					I specialize in native Android & iPhone programming & development and quickly solve complex tasks in existing code (My clients) and I quickly write a new code without losing quality.<br><br>
+
+					My skills include ROR (Ruby on Rails), Android Development, Desktop Application.<br><br>
+
+					<strong>My approach will include the following steps:</strong><br>
+						- Requirement Understanding<br>
+						- Designing<br>
+						- Development<br>
+						- Testing<br>
+						- Deployment<br>
+						- Maintenance (On-demand)
+			</p>
+
+			<div class="row mt-5">
+
+				<div class="col-md-6">
+					<!-- skill item -->
+					<div class="skill-item">
+						<div class="skill-info clearfix">
+							<h4 class="float-left mb-3 mt-0">Ruby on Rails</h4>
+							<span class="float-right text-dark">85%</span>
+						</div>
+						<div class="w3-light-grey w3-round-large">
+    						<div class="w3-container w3-blue1 w3-round-large" style="width:85%; font-size: 0.8rem;">85%</div>
+  						</div>
+						<div class="spacer" data-height="50"></div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<!-- skill item -->
+					<div class="skill-item">
+						<div class="skill-info clearfix">
+							<h4 class="float-left mb-3 mt-0">HTML & CSS</h4>
+							<span class="float-right text-dark">90%</span>
+						</div>
+						<div class="w3-light-grey w3-round-large">
+    						<div class="w3-container w3-blue1 w3-round-large" style="width:90%; font-size: 0.8rem;">90%</div>
+  						</div>
+						<div class="spacer" data-height="50"></div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<!-- skill item -->
+					<div class="skill-item">
+						<div class="skill-info clearfix">
+							<h4 class="float-left mb-3 mt-0">Python</h4>
+							<span class="float-right text-dark">60%</span>
+						</div>
+						<div class="w3-light-grey w3-round-large">
+    						<div class="w3-container w3-blue1 w3-round-large" style="width:60%; font-size: 0.8rem;">60%</div>
+  						</div>
+						<div class="spacer d-md-none d-lg-none" data-height="50"></div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<!-- skill item -->
+					<div class="skill-item">
+						<div class="skill-info clearfix">
+							<h4 class="float-left mb-3 mt-0">WordPress</h4>
+							<span class="float-right text-dark">70%</span>
+						</div>
+						<div class="w3-light-grey w3-round-large">
+    						<div class="w3-container w3-blue1 w3-round-large" style="width:70%; font-size: 0.8rem;">70%</div>
+  						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- section facts -->
+		<section id="facts" class="shadow-dark color-white background parallax padding-50" data-image-src="images/background-1.jpg">
+
+			<div class="row relative z-1">
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item text-center">
+						<i class="icon-circle"><div class="fas fa-thumbs-up"></div></i>
+						<h2 class="count">57</h2>
+						<span>Projects completed</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item text-center">
+						<i class="icon-circle"><div class="fas fa-mug-hot"></div></i>
+						<h2 class="count">2765</h2>
+						<span>Cup of coffee</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item text-center">
+						<i class="icon-circle"><div class="fas fa-grin-squint"></div></i>
+						<h2 class="count">11</h2>
+						<span>Happy customers</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item text-center">
+						<i class="icon-circle"><div class="fas fa-trophy"></div></i>
+						<h2 class="count">8</h2>
+						<span>Awards won</span>
+					</div>
+				</div>
+			</div>
+			
+			<div class="overlay"></div>
+
+		</section>
+
+		<!-- section services -->
+		<section id="services" class="shadow-blue white-bg padding">
+			<h3 class="section-title">Services</h3>
+			<div class="spacer" data-height="80"></div>
+
+			<div class="row">
+
+				<div class="col-md-4 col-sm-6">
+					<!-- service item -->
+					<div class="service-item text-center">
+						<i class="fas fa-globe globe1 "><div class="fas fa-simple"></div></i>
+						<h4 class="my-3">Development</h4>
+						<p class="mb-0">I have experience in some different back-end Frameworks.</p>
+					</div>
+					<div class="spacer" data-height="20"></div>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<!-- service item -->
+					<div class="service-item text-center">
+						<i class="fas fa-palette globe1 "><div class="fas fa-simple"></div></i>
+						<h4 class="my-3">Design</h4>
+						<p class="mb-0">I have experience in Bootstrap, JS, HTML5, and CSS3.</p>
+					</div>
+					<div class="spacer" data-height="20"></div>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<!-- service item -->
+					<div class="service-item text-center">
+						<i class="fas fa-language globe1 "><div class="fas fa-simple"></div></i>
+						<h4 class="my-3">Languages</h4>
+						<p class="mb-0">Ruby/Ruby on Rails. Python. Java. HTML. JavaScript. C++ C#. SQL.</p>
+					</div>
+					<div class="spacer" data-height="20"></div>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<!-- service item -->
+					<div class="service-item text-center">
+						<i class="fas fa-shield-alt globe1 "><div class="fas fa-simple"></div></i>
+						<h4 class="my-3">Responsive Design</h4>
+						<p class="mb-0">The web will Complete responsive and designed as your needs and requirements.</p>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="20"></div>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<!-- service item -->
+					<div class="service-item text-center">
+						<i class="fas fa-copyright globe1 "><div class="fas fa-simple"></div></i>
+						<h4 class="my-3">Copy Write</h4>
+						<p class="mb-0">All the Development and Designs are Licenced and Free from Copy Write from Others.</p>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="20"></div>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<!-- service item -->
+					<div class="service-item text-center">
+						<i class="fas fa-people-carry globe1 "><div class="fas fa-simple"></div></i>
+						<h4 class="my-3">24x7 Support & Maintenance</h4>
+						<p class="mb-0">Best Support and Maintenance facilities on Demand.</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- section experience -->
+		<section id="resume" class="shadow-blue white-bg padding">
+			<h3 class="section-title">Experience</h3>
+			<div class="spacer" data-height="80"></div>
+
+			<!-- timeline -->
+			<div class="timeline">
+				<div class="entry">
+					<div class="title">
+						<span>2019 - Present</span>
+					</div>
+					<div class="body">
+						<h4 class="mt-0"><strong>Bachelor Degree</strong></h4>
+						<p>I'm Student of Bachelor Degree in Comsats University of Imsamabad, Sahiwal Campus. I'm Studying Bachelor of Computer Science (Software Engineering). I'm Developer and Love Coading. </p>
+					</div>
+				</div>
+				<div class="entry">
+					<div class="title">
+						<span>2018 - 2017</span>
+					</div>
+					<div class="body">
+						<h4 class="mt-0"><strong>Intermediate - F.Sc</strong></h4>
+						<p>I'm Completed my Intermediate in Nishat Group of School and Colleges Multan, with 65+ marks in Percentage with Math and Science Subjects. </p>
+					</div>
+				</div>
+				<div class="entry">
+					<div class="title">
+						<span>2016 - 2015</span>
+					</div>
+					<div class="body">
+						<h4 class="mt-0"><strong>Matric</strong></h4>
+						<p>I'm completed my matric in Quasim Public School, Iqbal Nagar, with 880 marks (80%) with Computer Science Subjects.</p>
+					</div>
+				</div>
+				<span class="timeline-line"></span>
+			</div>
+		</section>
+
+		<!-- section works -->
+		<section id="works" class="shadow-blue white-bg padding">
+			<h3 class="section-title">Portfolio</h3>
+			<div class="spacer" data-height="80"></div>
+
+			<!-- portolio wrapper -->
+			<div class="row portfolio-wrapper">
+				
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item video">
+					<a href="work-single.html">
+						<div class="portfolio-item">
+								<%= link_to page1_path do %>
+									<div class="details">
+										<h4>Ruby on Rails</h4>
+										<span class="term">Rails, Development</span>
+									</div>
+									<span class="plus-icon">+</span>
+									<div class="thumb">
+   									<%= image_tag "RubyOnRails.png", class: "PortSize" %>
+									<div class="mask"></div>
+									</div>
+								<% end %>
+						</div>
+					</a>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item creative design">
+					<a href="work-single.html">
+						<div class="portfolio-item">
+								<%= link_to page2_path do %>
+									<div class="details">
+										<h4>Yummy</h4>
+										<span class="term">Creative, Design</span>
+									</div>
+									<span class="plus-icon">+</span>
+									<div class="thumb">
+										<%= image_tag "yummy.png", class: "PortSize" %>
+										<div class="mask"></div>
+									</div>
+								<% end %>
+						</div>
+					</a>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item branding">
+					<a href="work-single.html">
+						<div class="portfolio-item">
+								<%= link_to page3_path do %>
+									<div class="details">
+										<h4 class="title">Fantom</h4>
+										<span class="term">Branding</span>
+									</div>
+									<span class="plus-icon">+</span>
+									<div class="thumb">
+										<%= image_tag "fantom.png", class: "PortSize" %>
+										<div class="mask"></div>
+									</div>
+								<% end %>
+						</div>
+					</a>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item creative">
+					<a href="work-single.html">
+						<div class="portfolio-item">
+								<%= link_to page4_path do %>
+									<div class="details">
+										<h4 class="title">Holly Landing Page</h4>
+										<span class="term">Creative</span>
+									</div>
+									<span class="plus-icon">+</span>
+									<div class="thumb">
+										<%= image_tag "HollyTemp.png", class: "PortSize" %>
+										<div class="mask"></div>
+									</div>
+								<% end %>
+						</div>
+					</a>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item video branding">
+					<a href="work-single.html">
+						<div class="portfolio-item">
+								<%= link_to page5_path do %>
+									<div class="details">
+										<h4 class="title">Philosophy</h4>
+										<span class="term">Art, Branding</span>
+									</div>
+									<span class="plus-icon">+</span>
+									<div class="thumb">
+										<%= image_tag "Photo.png", class: "PortSize" %>
+										<div class="mask"></div>
+									</div>
+								<% end %>
+						</div>
+					</a>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item creative design">
+					<a href="work-single.html">
+						<div class="portfolio-item">
+								<%= link_to page6_path do %>
+									<div class="details">
+										<h4 class="title">Sensive</h4>
+										<span class="term">Design, Creative</span>
+									</div>
+									<span class="plus-icon">+</span>
+									<div class="thumb">
+										<%= image_tag "sensive.png", class: "PortSize" %>
+										<div class="mask"></div>
+									</div>
+								<% end %>
+						</div>
+					</a>
+				</div>
+
+			</div>
+			
+			<!-- more button -->
+			<div class="load-more text-center mt-4">
+				<div class="btn btn-default"><i class="margin fas fa-tasks"></i>  All Projects</div>
+			</div>
+		</section>
+
+		<!-- section testimonials -->
+		<section id="testimonials" class="shadow-blue white-bg padding">
+			<h3 class="section-title">Testimonials</h3>
+			<div class="spacer" data-height="97"></div>
+
+			<div class="row testimonials-wrapper">
+				
+				<div class="col-md-6">
+					<!-- testimonial item -->
+					<div class="testimonial-item">
+						<span class="symbol"><i class="fas fa-quote-left"></i></span>
+						<p>I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck!</p>
+						<div class="testimonial-details">
+							<div class="thumb">
+								<img src="https://via.placeholder.com/40x40" alt="customer-name" />
+							</div>
+							<div class="info">
+								<h4>Helen Doe</h4>
+								<span>Themeforest customer</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<!-- testimonial item -->
+					<div class="testimonial-item">
+						<span class="symbol"><i class="fas fa-quote-left"></i></span>
+						<p>I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck!</p>
+						<div class="testimonial-details">
+							<div class="thumb">
+								<img src="https://via.placeholder.com/40x40" alt="customer-name" />
+							</div>
+							<div class="info">
+								<h4>Jane Doe</h4>
+								<span>Themeforest customer</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<!-- testimonial item -->
+					<div class="testimonial-item">
+						<span class="symbol"><i class="fas fa-quote-left"></i></span>
+						<p>I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck!</p>
+						<div class="testimonial-details">
+							<div class="thumb">
+								<img src="https://via.placeholder.com/40x40" alt="customer-name" />
+							</div>
+							<div class="info">
+								<h4>Helen Doe</h4>
+								<span>Themeforest customer</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- section clients -->
+		<section id="clients" class="shadow-dark background-blue color-white padding-50">
+
+			<!-- hidden heading for validation -->
+			<h2 class="d-none">Clients</h2>
+
+			<!-- clients wrapper -->
+			<div class="clients-wrapper row">
+				
+				<div class="col-md-3">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner">
+							<%= image_tag("https://via.placeholder.com/143x20", {:style => "width:143px;"}) %>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner">
+							<img src="https://via.placeholder.com/143x20" alt="client-name" />
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner">
+							<img src="https://via.placeholder.com/143x20" alt="client-name" />
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner">
+							<img src="https://via.placeholder.com/143x20" alt="client-name" />
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- section blog -->
+		<section id="blog" class="shadow-blue white-bg padding">
+			<h3 class="section-title">Recent posts</h3>
+			<div class="spacer" data-height="80"></div>
+
+			<div class="row">
+				
+				<div class="col-md-4">
+					<!-- blog item -->
+					<div class="blog-item">
+						<div class="thumb">
+							<a href="#">
+								<span class="category">Thoughts</span>
+							</a>
+							<a href="#">
+								<img src="https://via.placeholder.com/800x600" alt="blog-title" />
+							</a>
+						</div>
+						<h4 class="mt-4 mb-0"><a href="#">The Truth About Design In 3 Minutes</a></h4>
+						<ul class="list-inline meta mb-0 mt-3">
+							<li class="list-inline-item">13 March, 2019</li>
+							<li class="list-inline-item">Ali Raza</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<!-- blog item -->
+					<div class="blog-item">
+						<div class="thumb">
+							<a href="#">
+								<span class="category">Blog</span>
+							</a>
+							<a href="#">
+								<img src="https://via.placeholder.com/800x600" alt="blog-title" />
+							</a>
+						</div>
+						<h4 class="mt-4 mb-0"><a href="#">The Ugly Truth About Design</a></h4>
+						<ul class="list-inline meta mb-0 mt-3">
+							<li class="list-inline-item">13 March, 2019</li>
+							<li class="list-inline-item">Ali Raza</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<!-- blog item -->
+					<div class="blog-item">
+						<div class="thumb">
+							<a href="#">
+								<span class="category">Tech</span>
+							</a>
+							<a href="#">
+								<img src="https://via.placeholder.com/800x600" alt="blog-title" />
+							</a>
+						</div>
+						<h4 class="mt-4 mb-0"><a href="#">How To Become Better With UI Design</a></h4>
+						<ul class="list-inline meta mb-0 mt-3">
+							<li class="list-inline-item">13 March, 2019</li>
+							<li class="list-inline-item">Ali Raza</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- section contact -->
+		<section id="contact" class="shadow-blue white-bg padding">
+			<h3 class="section-title">Get in touch</h3>
+			<div class="spacer" data-height="80"></div>
+
+			<div class="row">
+				
+				<div class="col-md-4 mb-4 mb-md-0">
+					<!-- contact info -->
+					<div class="contact-info mb-5">
+						<i class="fas fa-phone globe1"></i>
+						<div class="details">
+							<h5>Phone</h5>
+							<span>+92 3000750714</span>
+						</div>
+					</div>
+					<div class="contact-info mb-5">
+						<i class="fas fa-envelope globe1"></i>
+						<div class="details ">
+							<h5>Email address</h5>
+							<span>aliraxayasin@gmail.com</span>
+						</div>
+					</div>
+					<div class="contact-info">
+						<i class="fas fa-location-arrow globe1"></i>
+						<div class="details">
+							<h5>Location</h5>
+							<span>Rai Ahmad Nawaz Town Chichawatni, Sahiwal, Punjab Pakistan</span>
+						</div>
+					</div>
+				</div>
+
+
+				
+				<div class="col-md-8">
+					<!-- Contact Form -->
+					<%= form_for @contact do |f| %>
+					
+						
+						<div class="row">
+							<div class="column col-md-6">
+								<!-- Name input -->
+								<div class="form-group">
+
+									<%= f.text_field :name, require: true, class: 'form-control', placeholder: "Enter Name" %>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							
+							<div class="column col-md-6">
+								<!-- Email input -->
+								<div class="form-group">
+									<%= f.email_field :email, require: true, class: 'form-control', placeholder: "Enter Name" %>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+
+							<div class="column col-md-12">
+								<!-- Name input -->
+								<div class="form-group">
+									<%= f.text_field :subject, require: true, class: 'form-control', placeholder: "Subject" %>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							
+					
+							<div class="column col-md-12">
+								<!-- Message textarea -->
+								<div class="form-group">
+									<%= f.text_area :message, as: :text, class: 'form-control', placeholder: "Message", rows: "5" %>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							<div class="hidden">
+								<%= f.text_field :nickname, hint: 'leave this field empty' %>
+							</div>
+
+							<%= button_tag type: 'submit', class: "btn btn-default ml" do %>
+	    						<i class="fa fa-paper-plane margin" aria-hidden="true"></i>Send Message
+							<% end %>
+						</div>
+
+
+<% end %>
+				</div>
+			</div>
+
+		</section>
+		
+	</main>
+
+</div>
+
+<!-- Go to top button -->
+<a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+

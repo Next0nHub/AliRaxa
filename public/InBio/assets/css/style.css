@@ -452,10 +452,16 @@ ol {
   padding: 100px 0; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .rn-section-gap {
-      padding: 80px 0; } }
+      padding: 80px 0; } 
+    .blog1{
+      width: 100%;
+      height: auto; } }
   @media only screen and (max-width: 767px) {
     .rn-section-gap {
-      padding: 80px 0; } }
+      padding: 80px 0; }
+    .blog1{
+      width: 100%;
+      height: auto; } }
 
 .rn-section-gapBottom {
   padding-bottom: 100px; }
@@ -10974,21 +10980,7 @@ div#featured-project-carousel {
         margin-top: 45px;
         font-size: 18px;
         line-height: 30px; }
-      .testimonial .inner .card-description::before {
-        content: '';
-        position: absolute;
-        width: 51px;
-        height: 5px;
-        background: #181a1d;
-        left: -43px;
-        z-index: -1;
-        top: 66px; }
-        @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .testimonial .inner .card-description::before {
-            display: none; } }
-        @media only screen and (max-width: 767px) {
-          .testimonial .inner .card-description::before {
-            display: none; } }
+      
       .testimonial .inner .card-description::after {
         content: "";
         position: absolute;
@@ -10997,7 +10989,6 @@ div#featured-project-carousel {
         left: 0;
         top: -130px;
         background: transparent;
-        background-image: url(../images/icons/quote.png);
         background-size: cover;
         z-index: -1;
         opacity: 0.5;

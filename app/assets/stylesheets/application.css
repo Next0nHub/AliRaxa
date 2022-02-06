@@ -7,3 +7,50 @@
 .R1 {
 	margin-bottom: 3rem !important;
 }
+
+p{
+    text-align: justify;
+}
+
+.description1{
+	font-size: 16px;
+    line-height: 28px;
+    color: var(--color-lightn);
+    margin-bottom: 22px;
+    transition: var(--transition);
+}
+
+/*.testimonial .inner {
+    margin: 0 0px !important;
+}*/
+
+.contact{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20px;
+}
+
+.blog1{
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.portfolio1{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.footer{
+    text-align: center;
+}
+
+.tstm{
+    width: 100%;
+    height: auto;
+}

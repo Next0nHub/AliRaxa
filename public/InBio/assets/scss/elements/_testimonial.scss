@@ -1,5 +1,5 @@
 /*---------------------------
-    Testimonial Area Styles 
+    Testimonial Area Styles  Ali
 -----------------------------*/
 
 .rn-testimonial {
@@ -21,7 +21,6 @@
     .inner {
         display: flex;
         justify-content: center;
-        margin: 0 25px;
 
         @media #{$md-layout} {
             display: block;
@@ -115,6 +114,7 @@
 
                 .designation {
                     font-size: 14px;
+                    text-align: justify;
                 }
             }
         }
@@ -126,6 +126,7 @@
             background: var(--background-color-1);
             box-shadow: var(--shadow-1);
             margin-top: 115px;
+            text-align: justify;
 
             @media #{$small-mobile} {
                 padding: 15px;
@@ -421,6 +422,7 @@
         max-width: 100%;
         padding: 35px 30px;
         margin-top: 0;
+        text-align: justify;
     }
 }
 
@@ -435,7 +437,7 @@
 
     .testimonial .inner .card-info .card-thumbnail {
         max-width: 100px;
-        margin-right: 25px;
+        margin-right: 0px;
         margin-bottom: 0;
     }
 
@@ -443,6 +445,7 @@
         max-width: 100%;
         padding: 35px 30px;
         margin-top: 0;
+        text-align: justify;
     }
 }
 
@@ -465,5 +468,6 @@
         max-width: 100%;
         padding: 20px;
         margin-top: 0;
+        text-align: justify;
     }
 }

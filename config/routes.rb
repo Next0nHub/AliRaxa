@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   root 'pages#index'
   get 'portfolio', to: 'pages#portfolio'
   get 'resuma', to: 'pages#resuma'
-  get 'testimonial', to: 'pages#testimonial'
   get 'blogs', to: 'pages#blogs'
+  get 'blog1', to: 'pages#blog1'
   get 'contact', to: 'pages#contact'
 
 

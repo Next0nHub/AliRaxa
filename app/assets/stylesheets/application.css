@@ -56,3 +56,16 @@ p{
     width: 100%;
     height: auto;
 }
+
+
+mobile-mg{
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+
+p.discription1 {
+    font-size: 13px;
+    margin-top: 31px;
+    text-align: center;
+}

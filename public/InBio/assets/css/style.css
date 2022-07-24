@@ -55,9 +55,9 @@
   --gradient-red-hover: linear-gradient(145deg, #ff014f, #d11414);
   --color-heading: #ffffff;
   --color-heading-wv: #1e2125;
-  --color-body: #878e99;
+  --color-body: #ffffff;
   --color-body-white: #3c3e41;
-  --color-lightn: #c4cfde;
+  --color-lightn: #ffffff;
   --color-midgray: #878787;
   --color-light: #E4E6EA;
   --color-lighter: #CED0D4;
@@ -96,7 +96,7 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Montserrat', sans-serif;
   --font-size-b1: 18px;
-  --font-size-b2: 22px;
+  --font-size-b2: 16px;
   --font-size-b3: 14px;
   --line-height-b1: 1.50;
   --line-height-b2: 1.6;

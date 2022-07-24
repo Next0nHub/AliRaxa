@@ -69,3 +69,16 @@ p.discription1 {
     margin-top: 31px;
     text-align: center;
 }
+
+.feature-image{
+    display: block;
+    margin-left: 0.5rem;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 1rem;
+    float: right;
+}
+
+.feature-content{
+    text-align: justify;
+}
